@@ -21,10 +21,10 @@ function page() {
     }]) 
     
     return (
-    <div >
+    <div className="sm:flex-col">
       <h1 className='text-4xl  text-center font-bold'>My Projects</h1>
       <div className="bg-[#0d2438] text-white mt-8">
-        <div className="grid grid-cols-3 gap-1 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       { 
         projects.map(project=>(
             <ProjectCard title={project.title} image={project.image} description={project.description} link={project.link}/>
