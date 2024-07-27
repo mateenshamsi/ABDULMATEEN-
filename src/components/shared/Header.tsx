@@ -25,7 +25,7 @@ function Header() {
       </button>
       
       {/* Menu Links */}
-      <div className={`flex-col sm:flex-row sm:flex ${isMenuOpen ? 'flex' : 'hidden'} sm:flex items-center gap-4 mt-4 sm:mt-0 absolute sm:static top-full left-0 w-full sm:w-auto bg-white sm:bg-transparent shadow-md sm:shadow-none`}>
+      <div className={`flex-col sm:flex-row sm:flex ${isMenuOpen ? 'flex' : 'hidden'} sm:flex items-center gap-4 mt-4 sm:mt-0 absolute sm:static top-full left-0 w-full sm:w-auto   shadow-md sm:shadow-none`}>
         <Link className="transform transition-transform hover:scale-105 duration-300" href="/projects">
           Projects
         </Link>

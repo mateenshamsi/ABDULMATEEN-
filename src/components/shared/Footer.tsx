@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='mt-16 flex flex-col items-center justify-center mb-12'>
       <h1 className='text-2xl text-center'>Connect with me</h1>
-      <div className='mt-4 flex items-center justify-center space-x-2 md:gap-12 sm:ga gap-2'>
+      <div className='mt-4 flex items-center justify-center space-x-2 md:gap-12 gap-2'>
         <Link href="https://www.linkedin.com/in/abdulmateen-shamsi-833116223/">
           <FaLinkedin size="4rem" className="sm:text-2xl" />
         </Link>
